@@ -1,0 +1,11 @@
+# Keeps the SHA-pinned actions in .github/workflows up to date (each update is a
+# pull request you review). GITFORAGE_SHA is not an action, so update it by hand.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]

@@ -1,0 +1,5 @@
+# gitforage feedback: Keep and Skip marks. The latest mark per repo counts.
+# The feedback workflow appends to this file. You can also add your own marks:
+#   - { repo: owner/name, mark: keep, date: 2026-11-22, topics: [cli], language: Go }
+version: 1
+marks: []

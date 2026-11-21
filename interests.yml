@@ -1,0 +1,75 @@
+# gitforage: what this portal looks for. Edit this file, commit, and run the
+# "forage" workflow (Actions tab) or wait for Sunday. Full reference:
+# https://github.com/iacsha/gitforage#interestsyml
+#
+# You need at least one of topics, keywords, seeds or stars_from. Everything else
+# has a sensible default.
+
+# A few sentences about what you want. Shown on the portal's About page.
+profile: |
+  Self-hostable tools that run in Docker, and command-line tools that save time.
+
+# GitHub topics (lowercase, hyphens), as shown on repo pages. Each one is searched
+# for new repos, and repos that carry them score higher.
+topics: [self-hosted, docker, cli]
+
+# Phrases searched in repo names, descriptions and READMEs.
+keywords: []
+
+# Projects you follow, as owner/name. gitforage finds their live forks (ahead of
+# upstream and recently pushed) and repos like them.
+seeds: []
+#  - home-assistant/core
+
+# Recommended: your GitHub username. Your stars count as already known (never
+# shown), and gitforage learns your taste from them.
+stars_from: ""
+
+exclude:
+  topics: [awesome-list, awesome]
+  keywords: ["awesome-"]          # matched against owner/name and description
+  owners: []
+
+filters:
+  min_stars: 5                    # forks are exempt
+  max_age_days: 365               # "new" means created within this many days
+  languages: []                   # empty means any, for example [typescript, go]
+  spoken_languages: []            # languages of the description, for example [en]; empty means any
+  drop_suspected_star_farms: false  # true drops repos whose stars look bought, instead of lowering their score
+
+digest_size: 20                   # cards per tab per run
+
+site:
+  title: My gitforage
+  # tag: beta          # optional short label beside the title
+  # repo: is filled in by the workflow (this repo). Set url: only for a custom domain.
+  # url: https://forage.example.org/
+  # Optional cookieless visit counts with GoatCounter (https://www.goatcounter.com).
+  # analytics: { provider: goatcounter, code: your-goatcounter-code }
+  # The default layout. Visitors can change it with the Density, Sort and View
+  # controls, and their choice is kept in their own browser.
+  # layout:
+  #   density: comfortable        # comfortable, compact (smaller, more tiles) or list (one row per repo)
+  #   sort: score                 # score, newest, stars or rising
+  #   fields: { reasons: true, health: true, language: true, stars: true }
+
+feedback:
+  visitors: true                  # let anyone with a GitHub account Keep or Skip
+  visitor_weight: 0.25            # a visitor's mark counts this much of yours
+  max_per_user: 3                 # marks per person per day
+  min_account_age_days: 30        # ignore brand-new accounts
+
+# Optional extras, off until you uncomment them. Secrets never go in this file:
+# add them under Settings, Secrets and variables, Actions.
+#
+# llm:                            # AI re-rank of the top finds, with a labelled AI field note
+#   provider: anthropic           # anthropic (secret ANTHROPIC_API_KEY) | openai-compatible | ollama
+#   top: 20                       # how many of the rule-ranked top finds the model judges
+#   weight: 4                     # most points the model can add or take away
+#
+# notify:                         # one short message after each weekly run
+#   top: 5
+#   channels: [telegram]          # ntfy | telegram | webhook; see the README for each channel's secrets
+#
+# early_finds:                    # the Found early page; the daily early-finds workflow keeps its record
+#   enabled: true

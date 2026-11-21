@@ -1,0 +1,8 @@
+# Notes for The Haul, the portal's numbered weekly issue (haul/ on the site).
+#
+# Each issue lists the week's three best new finds. To add a one-line note to an
+# issue, write its number, a colon and the note on one line, for example:
+#
+#   1: A quiet week in the HL7 patch, but the first find is worth the walk.
+#
+# Lines starting with # are ignored. Issues without a note simply have none.

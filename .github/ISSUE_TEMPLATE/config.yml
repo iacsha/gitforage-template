@@ -1,0 +1,3 @@
+# Issues on a portal repo are Keep and Skip marks from the portal. Blank issues are
+# off so other issues are not mistaken for feedback.
+blank_issues_enabled: false

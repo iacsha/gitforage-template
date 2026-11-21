@@ -1,0 +1,129 @@
+# Weekly: forage GitHub in both modes, commit state/, build the portal and deploy it
+# to GitHub Pages. The forage job can only write repo contents; the deploy job can only
+# publish Pages. Nothing here runs on pull requests.
+name: forage
+
+on:
+  schedule:
+    - cron: "17 6 * * 0" # Sundays, 06:17 UTC
+  workflow_dispatch:
+
+permissions: {}
+
+# One forage at a time. feedback.yml has its own group (so a feedback issue never
+# cancels a pending weekly run); the two touch different files, and each rebases
+# before it pushes.
+concurrency:
+  group: gitforage-forage
+  cancel-in-progress: false
+
+env:
+  # The gitforage commit this portal runs. Pinned by full SHA so a run is reproducible
+  # and nothing changes under you; update it on purpose to upgrade.
+  GITFORAGE_REPO: iacsha/gitforage
+  GITFORAGE_SHA: "486f6a84b4b2ba56a94b61648b52ed2eed03070a"
+
+jobs:
+  forage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Check out gitforage at the pinned commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: ${{ env.GITFORAGE_REPO }}
+          ref: ${{ env.GITFORAGE_SHA }}
+          path: .gitforage-src
+          persist-credentials: false
+
+      - name: Refuse an unpinned gitforage
+        run: |
+          if ! printf '%s' "$GITFORAGE_SHA" | grep -Eq '^[0-9a-f]{40}$' || [ "$GITFORAGE_SHA" = "0000000000000000000000000000000000000000" ]; then
+            echo "::error::Set GITFORAGE_SHA to a real gitforage commit (see README)."
+            exit 1
+          fi
+          test "$(git -C .gitforage-src rev-parse HEAD)" = "$GITFORAGE_SHA"
+
+      - name: Set up bun
+        uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+        with:
+          bun-version: 1.3.14
+
+      - name: Install gitforage from its lockfile
+        working-directory: .gitforage-src
+        run: bun install --frozen-lockfile --production --ignore-scripts
+
+      - name: Forage
+        env:
+          # Read-only use: public search and repo data. Sent only to api.github.com.
+          GITHUB_TOKEN: ${{ github.token }}
+          # Optional AI re-rank (llm in interests.yml). Unset secrets are empty: rules only.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          bun .gitforage-src/packages/cli/src/cli.ts run --config interests.yml --mode discover --out "$RUNNER_TEMP/discover.md"
+          bun .gitforage-src/packages/cli/src/cli.ts run --config interests.yml --mode contribute --out "$RUNNER_TEMP/contribute.md"
+
+      - name: Build the portal
+        run: bun .gitforage-src/packages/cli/src/cli.ts site --config interests.yml --repo "$GITHUB_REPOSITORY" --out "$RUNNER_TEMP/site"
+
+      - name: Commit state
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state
+          if git diff --cached --quiet; then
+            echo "No state changes."
+            exit 0
+          fi
+          git commit -m "gitforage: run of $(date -u +%Y-%m-%d)"
+          auth="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)"
+          for _ in 1 2 3; do
+            if git -c "http.https://github.com/.extraheader=$auth" push origin "HEAD:refs/heads/$GITHUB_REF_NAME"; then exit 0; fi
+            git -c "http.https://github.com/.extraheader=$auth" pull --rebase origin "$GITHUB_REF_NAME"
+          done
+          exit 1
+
+      # Optional: pings the channels listed under notify: in interests.yml. With none
+      # listed it does nothing; a channel whose secret is not set is skipped. Secrets reach
+      # this step only, through env:. A failed ping never blocks the deploy.
+      - name: Notify
+        continue-on-error: true
+        env:
+          GITFORAGE_NTFY_TOPIC: ${{ secrets.GITFORAGE_NTFY_TOPIC }}
+          GITFORAGE_NTFY_TOKEN: ${{ secrets.GITFORAGE_NTFY_TOKEN }}
+          GITFORAGE_TELEGRAM_BOT_TOKEN: ${{ secrets.GITFORAGE_TELEGRAM_BOT_TOKEN }}
+          GITFORAGE_TELEGRAM_CHAT_ID: ${{ secrets.GITFORAGE_TELEGRAM_CHAT_ID }}
+          GITFORAGE_WEBHOOK_URL: ${{ secrets.GITFORAGE_WEBHOOK_URL }}
+        run: bun .gitforage-src/packages/cli/src/cli.ts notify --config interests.yml --repo "$GITHUB_REPOSITORY"
+
+      - name: Upload the portal
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: ${{ runner.temp }}/site
+
+  deploy:
+    needs: forage
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
