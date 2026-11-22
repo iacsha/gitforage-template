@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "seen": {
+    "agentscope-ai/qwenpaw": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 23.3
+    },
+    "aientech/dossier": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 19.1
+    },
+    "arcreel/arcreel": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 20
+    },
+    "arnegiacomo/fugleramme": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 17.3
+    },
+    "baarai/artex": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 17.1
+    },
+    "bookorbit/bookorbit": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 17.5
+    },
+    "brightbeanxyz/brightbean-studio": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 17.4
+    },
+    "codewhale-hq/codewhale": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 20
+    },
+    "connorgallopo/tracearr": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 10.1
+    },
+    "deeplethe/utopia": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 10.2
+    },
+    "duartesantos8/opengym": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 19.8
+    },
+    "elie222/rakazo": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 18.5
+    },
+    "floci-io/floci": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 18.9
+    },
+    "googleworkspace/cli": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 9.9
+    },
+    "herdrdev/herdr": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 20.6
+    },
+    "hkuds/nanobot": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 15.5
+    },
+    "holyarrs/holyarrs": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 20.3
+    },
+    "ifixai-ai/ifixai": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 13.4
+    },
+    "iofficeai/officecli": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 10.2
+    },
+    "jub0t/concat": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 13.6
+    },
+    "kkkkhazix/agent-autoloop": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 20.4
+    },
+    "kkkkhazix/aihot": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 13.4
+    },
+    "libracoder/kiri": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 17.9
+    },
+    "liketrek/trek": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 18
+    },
+    "mdiri-ai/soduwork": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 17.7
+    },
+    "milind-soni/openmausbot": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 20.5
+    },
+    "nanocoai/nanoclaw": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 18.8
+    },
+    "obsidianmd/obsidian-skills": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 20.5
+    },
+    "oomol-lab/open-connector": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 20.2
+    },
+    "osmantic/ods": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 13.5
+    },
+    "panniantong/agent-reach": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 18.5
+    },
+    "peach-mitao/peach": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 15.7
+    },
+    "pranshuparmar/witr": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 18.3
+    },
+    "rocketride-org/rocketride-server": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 10.1
+    },
+    "rtk-ai/rtk": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 13.7
+    },
+    "snapotter-hq/snapotter": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 13.9
+    },
+    "t8y2/dbx": {
+      "first_seen": "2026-11-22T14:43:12.804Z",
+      "score": 19.6
+    },
+    "tianma-if/edgeever": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 24.7
+    },
+    "twigpine/openclaude": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 20.5
+    },
+    "xerj-org/xerj": {
+      "first_seen": "2026-11-22T14:43:56.131Z",
+      "score": 18.4
+    }
+  }
+}

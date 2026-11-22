@@ -1,0 +1,1295 @@
+{
+  "version": 1,
+  "date": "2026-11-22",
+  "mode": "discover",
+  "generated_at": "2026-11-22T14:43:12.806Z",
+  "items": [
+    {
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "score": 20.5,
+      "stars": 26712,
+      "language": "TypeScript",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 7,
+          "text": "~7856 stars a month (new, 3 months ago, top 7% in self-hosted)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v0.1.176 today"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        }
+      ],
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use",
+        "docker",
+        "electron",
+        "grok",
+        "grok-bot",
+        "grok-bot-alternative",
+        "self-hosted",
+        "typescript"
+      ],
+      "via_topics": [
+        "self-hosted",
+        "docker"
+      ],
+      "created_at": "2026-08-11T18:58:55Z",
+      "pushed_at": "2026-11-22T14:34:51Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "KKKKhazix/agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "score": 20.4,
+      "stars": 6262,
+      "language": "TypeScript",
+      "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 7.4,
+          "text": "~9887 stars a month (new, 19d ago, top 2% in self-hosted)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (cli, self-hosted)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v1.9.6 today"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "MIT licensed"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description"
+        }
+      ],
+      "topics": [
+        "ai-agents",
+        "automation",
+        "claude-code",
+        "cli",
+        "codex",
+        "event-driven",
+        "mcp",
+        "nodejs",
+        "self-hosted",
+        "typescript",
+        "workflow"
+      ],
+      "via_topics": [
+        "self-hosted"
+      ],
+      "created_at": "2026-11-03T08:02:11Z",
+      "pushed_at": "2026-11-22T01:36:32Z",
+      "lang": "zh",
+      "health": null
+    },
+    {
+      "full_name": "HolyArrs/HolyArrs",
+      "url": "https://github.com/HolyArrs/HolyArrs",
+      "score": 20.3,
+      "stars": 2689,
+      "language": "Go",
+      "description": "One self-hosted app for your shows, movies and music.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 6.8,
+          "text": "~6723 stars a month (new, 12d ago, top 10% in self-hosted)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released 1.2.0 4d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        }
+      ],
+      "topics": [
+        "docker",
+        "homelab",
+        "jellyfin",
+        "media-server",
+        "plex",
+        "self-hosted"
+      ],
+      "via_topics": [
+        "docker"
+      ],
+      "created_at": "2026-11-09T23:53:25Z",
+      "pushed_at": "2026-11-22T12:28:16Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "DuarteSantos8/openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "score": 19.8,
+      "stars": 23231,
+      "language": "JavaScript",
+      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 6.3,
+          "text": "~5531 stars a month (new, 4 months ago, top 16% in docker)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v1.4.5 7d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        }
+      ],
+      "topics": [
+        "apple-watch",
+        "bodyweight",
+        "docker",
+        "fitness",
+        "fitness-tracker",
+        "gym",
+        "health",
+        "ios",
+        "mcp",
+        "nodejs",
+        "passkeys",
+        "progressive-web-applications",
+        "pwa",
+        "react",
+        "self-hosted",
+        "self-hosting",
+        "vite",
+        "webauthn",
+        "weightlifting",
+        "workout-tracker"
+      ],
+      "via_topics": [
+        "self-hosted",
+        "docker"
+      ],
+      "created_at": "2026-07-18T20:41:24Z",
+      "pushed_at": "2026-11-22T14:19:31Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "score": 19.6,
+      "stars": 31131,
+      "language": "Rust",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 6.1,
+          "text": "~4512 stars a month (new, 7 months ago, top 19% in docker)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (cli, docker)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v0.6.73-beta.20261120.1 1d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        }
+      ],
+      "topics": [
+        "ai",
+        "cli",
+        "clickhouse",
+        "database",
+        "database-client",
+        "database-management",
+        "docker",
+        "gui",
+        "mcp",
+        "mongodb",
+        "mysql",
+        "postgresql",
+        "redis",
+        "rust",
+        "sql-server",
+        "sqlite",
+        "tauri",
+        "vue"
+      ],
+      "via_topics": [
+        "docker",
+        "cli"
+      ],
+      "created_at": "2026-04-29T03:00:36Z",
+      "pushed_at": "2026-11-22T14:36:42Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "AienTech/dossier",
+      "url": "https://github.com/AienTech/dossier",
+      "score": 19.1,
+      "stars": 5361,
+      "language": "TypeScript",
+      "description": "A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 5.6,
+          "text": "~3282 stars a month (new, 49d ago, top 26% in docker)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed 3d ago"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v1.15.1 3d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        }
+      ],
+      "topics": [
+        "caprover",
+        "cover-letter",
+        "docker",
+        "job-application-tracker",
+        "job-search",
+        "llm",
+        "local-llm",
+        "nextjs",
+        "ollama",
+        "postgresql",
+        "resume",
+        "self-hosted",
+        "typescript"
+      ],
+      "via_topics": [
+        "docker"
+      ],
+      "created_at": "2026-10-03T21:26:15Z",
+      "pushed_at": "2026-11-19T11:11:48Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "nanocoai/nanoclaw",
+      "url": "https://github.com/nanocoai/nanoclaw",
+      "score": 18.8,
+      "stars": 31142,
+      "language": "TypeScript",
+      "description": "Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container on your machine, on the harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to it from Slack, WhatsApp, Telegram, Discord and more.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 5.3,
+          "text": "~3178 stars a month (new, 10 months ago, top 30% in docker)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v2026.11.0 1d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "MIT licensed"
+        }
+      ],
+      "topics": [
+        "ai-agents",
+        "ai-assistant",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "cursor",
+        "docker",
+        "openclaw",
+        "opencode",
+        "self-hosted"
+      ],
+      "via_topics": [
+        "self-hosted",
+        "docker"
+      ],
+      "created_at": "2026-01-31T15:47:22Z",
+      "pushed_at": "2026-11-22T12:25:34Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "elie222/rakazo",
+      "url": "https://github.com/elie222/rakazo",
+      "score": 18.5,
+      "stars": 9460,
+      "language": "TypeScript",
+      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 5,
+          "text": "~2810 stars a month (new, 3 months ago, top 33% in docker)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v0.14.0 today"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        }
+      ],
+      "topics": [
+        "ai-agents",
+        "chatgpt",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "llm",
+        "self-hosted",
+        "typescript"
+      ],
+      "via_topics": [
+        "self-hosted",
+        "docker"
+      ],
+      "created_at": "2026-08-13T06:28:56Z",
+      "pushed_at": "2026-11-22T14:40:47Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "score": 18.3,
+      "stars": 23059,
+      "language": "Go",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (cli, docker)"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 4.8,
+          "text": "~2059 stars a month (new, 11 months ago, top 37% in docker)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v0.3.4 48d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        }
+      ],
+      "topics": [
+        "cli",
+        "containers",
+        "devops",
+        "docker",
+        "freebsd",
+        "go",
+        "golang",
+        "incident-response",
+        "kubernetes",
+        "linux",
+        "macos",
+        "monitoring",
+        "observability",
+        "process-management",
+        "sysadmin",
+        "systemd",
+        "terminal",
+        "troubleshooting",
+        "tui",
+        "windows"
+      ],
+      "via_topics": [
+        "docker",
+        "cli"
+      ],
+      "created_at": "2025-12-20T17:26:59Z",
+      "pushed_at": "2026-11-21T15:50:38Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "liketrek/TREK",
+      "url": "https://github.com/liketrek/TREK",
+      "score": 18,
+      "stars": 15871,
+      "language": "TypeScript",
+      "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routing built in.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 4.5,
+          "text": "~1920 stars a month (new, 8 months ago, top 40% in docker)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v5.1.4 9d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        }
+      ],
+      "topics": [
+        "budget-tracker",
+        "collaborative",
+        "docker",
+        "itinerary",
+        "mcp-server",
+        "offline-first",
+        "open-source",
+        "openstreetmap",
+        "packing-list",
+        "pwa",
+        "real-time",
+        "self-hosted",
+        "selfhosted",
+        "travel",
+        "travel-app",
+        "travel-journal",
+        "travel-planner",
+        "tripit",
+        "wanderlog"
+      ],
+      "via_topics": [
+        "self-hosted",
+        "docker"
+      ],
+      "created_at": "2026-03-19T11:51:54Z",
+      "pushed_at": "2026-11-21T14:56:50Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "libracoder/kiri",
+      "url": "https://github.com/libracoder/kiri",
+      "score": 17.9,
+      "stars": 12213,
+      "language": "Rust",
+      "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 7.4,
+          "text": "~19284 stars a month (new, 19d ago, top 2% in docker)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic docker"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v0.2.2 3d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        }
+      ],
+      "topics": [
+        "containers",
+        "docker",
+        "kubernetes",
+        "linux",
+        "macos",
+        "oci",
+        "windows"
+      ],
+      "via_topics": [
+        "docker"
+      ],
+      "created_at": "2026-11-02T16:11:30Z",
+      "pushed_at": "2026-11-22T11:41:34Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "mdiri-ai/SoduWork",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "score": 17.7,
+      "stars": 6744,
+      "language": "JavaScript",
+      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 7.2,
+          "text": "~8430 stars a month (new, 24d ago, top 4% in self-hosted)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic self-hosted"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v1.13.19 3d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "MIT licensed"
+        }
+      ],
+      "topics": [
+        "agent-harness",
+        "agent-orchestration",
+        "agent-workflows",
+        "ai-agents",
+        "ai-workflows",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "electron",
+        "fastapi",
+        "harness",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "opencode",
+        "plugin-system",
+        "self-hosted",
+        "team-collaboration"
+      ],
+      "via_topics": [
+        "self-hosted"
+      ],
+      "created_at": "2026-10-29T02:43:14Z",
+      "pushed_at": "2026-11-22T13:51:22Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "bookorbit/bookorbit",
+      "url": "https://github.com/bookorbit/bookorbit",
+      "score": 17.5,
+      "stars": 6717,
+      "language": "TypeScript",
+      "description": "BookOrbit: Your Reading Space",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 4,
+          "text": "~1023 stars a month (new, 7 months ago, top 47% in docker)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v3.9.0 3d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        }
+      ],
+      "topics": [
+        "audiobook-player",
+        "digital-library",
+        "docker",
+        "ebook-reader",
+        "library-management",
+        "metadata-management",
+        "nestjs",
+        "oidc-single-sign-on",
+        "opds",
+        "self-hosted",
+        "vue"
+      ],
+      "via_topics": [
+        "self-hosted",
+        "docker"
+      ],
+      "created_at": "2026-05-09T00:04:37Z",
+      "pushed_at": "2026-11-22T07:58:15Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "arnegiacomo/fugleramme",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "score": 17.3,
+      "stars": 4103,
+      "language": "Python",
+      "description": "Bird frame for Raspberry Pi or your homelab - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. On an e-ink panel, a TV, or any screen.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 3.8,
+          "text": "~905 stars a month (new, 5 months ago, top 50% in docker)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v0.33.0 1d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1.5,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "MIT licensed"
+        }
+      ],
+      "topics": [
+        "bird-detection",
+        "birding",
+        "birdnet",
+        "birdnet-go",
+        "birdwatching",
+        "docker",
+        "e-ink",
+        "epaper",
+        "fugleramme",
+        "homelab",
+        "inky-impression",
+        "kiosk-software",
+        "pimoroni",
+        "public-domain-art",
+        "python",
+        "raspberry-pi",
+        "self-hosted"
+      ],
+      "via_topics": [
+        "docker"
+      ],
+      "created_at": "2026-07-08T19:01:49Z",
+      "pushed_at": "2026-11-21T15:14:15Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "BaaRai/ARTEX",
+      "url": "https://github.com/BaaRai/ARTEX",
+      "score": 17.1,
+      "stars": 15761,
+      "language": "Go",
+      "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 7.1,
+          "text": "~10746 stars a month (new, 44d ago, top 6% in docker)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic docker"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "release",
+          "points": 2,
+          "text": "released v0.7.0 1d ago"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description"
+        }
+      ],
+      "topics": [
+        "ai",
+        "ai-agents",
+        "autonomous-agents",
+        "bug-bounty",
+        "docker",
+        "golang",
+        "linux",
+        "llm",
+        "mcp",
+        "nextjs",
+        "penetration-testing",
+        "pentest",
+        "postgresql",
+        "rea",
+        "react",
+        "red-team",
+        "security",
+        "security-automation",
+        "sqlite",
+        "typescript"
+      ],
+      "via_topics": [
+        "docker"
+      ],
+      "created_at": "2026-10-08T21:14:39Z",
+      "pushed_at": "2026-11-22T10:00:46Z",
+      "lang": "und",
+      "health": null
+    },
+    {
+      "full_name": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "score": 13.7,
+      "stars": 87475,
+      "language": "Rust",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 6.7,
+          "text": "~8661 stars a month (new, 10 months ago, top 11% in cli)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic cli"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        }
+      ],
+      "topics": [
+        "agentic-coding",
+        "ai-coding",
+        "anthropic",
+        "claude-code",
+        "cli",
+        "command-line-tool",
+        "cost-reduction",
+        "developer-tools",
+        "llm",
+        "open-source",
+        "productivity",
+        "rust",
+        "token-optimization"
+      ],
+      "via_topics": [
+        "cli"
+      ],
+      "created_at": "2026-01-22T16:54:16Z",
+      "pushed_at": "2026-11-22T14:14:15Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "jub0t/Concat",
+      "url": "https://github.com/jub0t/Concat",
+      "score": 13.6,
+      "stars": 19577,
+      "language": "Rust",
+      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 6.6,
+          "text": "~6674 stars a month (new, 3 months ago, top 12% in self-hosted)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic self-hosted"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        }
+      ],
+      "topics": [
+        "ffmpeg",
+        "free-video-editor",
+        "model-context-protocol",
+        "non-linear-editor",
+        "offline-first",
+        "open-source-video-editor",
+        "self-hosted",
+        "video-editing",
+        "video-editing-automation",
+        "video-editing-software",
+        "video-editing-tools",
+        "video-editor",
+        "voice-cloning",
+        "youtube-automation",
+        "youtube-shorts"
+      ],
+      "via_topics": [
+        "self-hosted"
+      ],
+      "created_at": "2026-08-25T18:34:47Z",
+      "pushed_at": "2026-11-22T08:55:18Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "Osmantic/ODS",
+      "url": "https://github.com/Osmantic/ODS",
+      "score": 13.5,
+      "stars": 7900,
+      "language": "Python",
+      "description": "ODS V3 Pre-Release: Public testing and refinement ahead of the official V3 launch. Turn your PC, Mac, or Linux box into a private AI server.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 3.5,
+          "text": "~829 stars a month (new, 10 months ago, top 54% in docker)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed 3d ago"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        }
+      ],
+      "topics": [
+        "ai-agents",
+        "amd",
+        "comfyui",
+        "docker",
+        "llama-cpp",
+        "llm",
+        "local-ai",
+        "n8n",
+        "nvidia",
+        "open-webui",
+        "rag",
+        "self-hosted",
+        "speech-to-text",
+        "strix-halo",
+        "text-to-speech",
+        "workflow-automation"
+      ],
+      "via_topics": [
+        "self-hosted",
+        "docker"
+      ],
+      "created_at": "2026-02-09T13:14:58Z",
+      "pushed_at": "2026-11-19T08:35:56Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "score": 13.4,
+      "stars": 46815,
+      "language": "Python",
+      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 6.4,
+          "text": "~6720 stars a month (new, 7 months ago, top 15% in cli)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic cli"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed 1d ago"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        }
+      ],
+      "topics": [
+        "agent-evaluation",
+        "ai",
+        "ai-alignment",
+        "ai-evaluation",
+        "ai-governance",
+        "ai-safety",
+        "cli",
+        "diagnostic-tool",
+        "eu-ai-act",
+        "hallucination-detection",
+        "iso-42001",
+        "llm-evaluation",
+        "llm-security",
+        "nist-ai-rmf",
+        "owasp-llm",
+        "prompt-injection",
+        "python",
+        "responsible-ai",
+        "risk-assessment",
+        "risk-management"
+      ],
+      "via_topics": [
+        "cli"
+      ],
+      "created_at": "2026-04-27T13:02:34Z",
+      "pushed_at": "2026-11-20T18:23:56Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "KKKKhazix/AIHOT",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "score": 13.4,
+      "stars": 11224,
+      "language": "TypeScript",
+      "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 6.4,
+          "text": "~6236 stars a month (new, 54d ago, top 15% in self-hosted)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic self-hosted"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "MIT licensed"
+        }
+      ],
+      "topics": [
+        "ai",
+        "chinese",
+        "content-curation",
+        "daily-digest",
+        "docker-compose",
+        "llm",
+        "mcp",
+        "news-aggregator",
+        "postgresql",
+        "rss",
+        "self-hosted",
+        "typescript"
+      ],
+      "via_topics": [
+        "self-hosted"
+      ],
+      "created_at": "2026-09-28T23:40:05Z",
+      "pushed_at": "2026-11-22T10:17:09Z",
+      "lang": "zh",
+      "health": null
+    }
+  ]
+}

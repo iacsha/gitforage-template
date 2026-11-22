@@ -1,0 +1,1598 @@
+{
+  "version": 1,
+  "date": "2026-11-22",
+  "mode": "contribute",
+  "generated_at": "2026-11-22T14:43:56.133Z",
+  "items": [
+    {
+      "full_name": "tianma-if/edgeever",
+      "url": "https://github.com/tianma-if/edgeever",
+      "score": 24.7,
+      "stars": 3492,
+      "language": "TypeScript",
+      "description": "AI-native note-taking app & Evernote/Obsidian alternative. Instant all-platform sync, rich notes (tables, mind maps, diagrams, posters), web clipper & MCP. 100% free on Cloudflare or Docker.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 100 outside PRs in 90 days"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "issue_response",
+          "points": 3,
+          "text": "answered 21 of 21 recent issues"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 2.2,
+          "text": "~703 stars a month (new, 5 months ago, top 57% in docker)"
+        },
+        {
+          "rule": "good_first_issue",
+          "points": 1.5,
+          "text": "2 help wanted"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v2.31.1 today"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        }
+      ],
+      "topics": [
+        "ai-agent",
+        "cloudflare",
+        "cloudflare-workers",
+        "diagrams",
+        "docker",
+        "evernote",
+        "evernote-alternative",
+        "knowledge-base",
+        "markdown",
+        "mcp",
+        "mindmap",
+        "note-taking",
+        "obsidian",
+        "obsidian-alternative",
+        "offline-first",
+        "pkm",
+        "second-brain",
+        "self-hosted",
+        "sqlite",
+        "web-clipper"
+      ],
+      "via_topics": [
+        "docker"
+      ],
+      "created_at": "2026-06-26T06:59:58Z",
+      "pushed_at": "2026-11-22T12:18:50Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 100,
+        "issue_response": {
+          "answered": 21,
+          "total": 21
+        }
+      }
+    },
+    {
+      "full_name": "agentscope-ai/QwenPaw",
+      "url": "https://github.com/agentscope-ai/QwenPaw",
+      "score": 23.3,
+      "stars": 38102,
+      "language": "Python",
+      "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 25 outside PRs in 90 days"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 3.8,
+          "text": "~4218 stars a month (new, 9 months ago, top 25% in self-hosted)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic self-hosted"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed 2d ago"
+        },
+        {
+          "rule": "issue_response",
+          "points": 3,
+          "text": "answered 7 of 7 recent issues"
+        },
+        {
+          "rule": "good_first_issue",
+          "points": 1.5,
+          "text": "2 good first issues"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v2.3.0.post1 4d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        }
+      ],
+      "topics": [
+        "agent",
+        "agent-harness",
+        "agentscope",
+        "ai-agent",
+        "ai-agents",
+        "chatbot",
+        "harness-engineering",
+        "llm-tools",
+        "llms",
+        "loop-engineering",
+        "mcp",
+        "personal-ai-assistant",
+        "self-hosted",
+        "skills",
+        "super-agent",
+        "webui"
+      ],
+      "via_topics": [
+        "self-hosted"
+      ],
+      "created_at": "2026-02-24T03:42:56Z",
+      "pushed_at": "2026-11-20T10:01:55Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 25,
+        "issue_response": {
+          "answered": 7,
+          "total": 7
+        }
+      }
+    },
+    {
+      "full_name": "herdrdev/herdr",
+      "url": "https://github.com/herdrdev/herdr",
+      "score": 20.6,
+      "stars": 52296,
+      "language": "Rust",
+      "description": "the runtime your coding agents live on",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 6 outside PRs in 90 days"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 4.1,
+          "text": "~6564 stars a month (new, 8 months ago, top 18% in cli)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic cli"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed 2d ago"
+        },
+        {
+          "rule": "issue_response",
+          "points": 1.5,
+          "text": "answered 9 of 18 recent issues"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v0.9.5 38d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        }
+      ],
+      "topics": [
+        "agent",
+        "agent-orchestration",
+        "ai",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "coding-agents",
+        "developer-tools",
+        "devtools",
+        "multiplexer",
+        "rust",
+        "terminal",
+        "terminal-multiplexer",
+        "terminal-ui",
+        "tmux",
+        "tui",
+        "workspace-manager"
+      ],
+      "via_topics": [
+        "cli"
+      ],
+      "created_at": "2026-03-27T17:54:33Z",
+      "pushed_at": "2026-11-19T22:15:19Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 6,
+        "issue_response": {
+          "answered": 9,
+          "total": 18
+        }
+      }
+    },
+    {
+      "full_name": "obsidianmd/obsidian-skills",
+      "url": "https://github.com/obsidianmd/obsidian-skills",
+      "score": 20.5,
+      "stars": 53423,
+      "language": "Shell",
+      "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 13 outside PRs in 90 days"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 4,
+          "text": "~4962 stars a month (new, 11 months ago, top 21% in cli)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic cli"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed 1d ago"
+        },
+        {
+          "rule": "issue_response",
+          "points": 2.8,
+          "text": "answered 13 of 14 recent issues"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "MIT licensed"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released 1.2.1 1d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 0.7,
+          "text": "docs: README, description"
+        }
+      ],
+      "topics": [
+        "agents",
+        "agentskills",
+        "bases",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "cli",
+        "codex",
+        "defuddle",
+        "grok-bot",
+        "hermes",
+        "jsoncanvas",
+        "knap",
+        "markdown",
+        "md",
+        "obsidian",
+        "openclaw",
+        "opencode",
+        "skills"
+      ],
+      "via_topics": [
+        "cli"
+      ],
+      "created_at": "2026-01-02T21:45:11Z",
+      "pushed_at": "2026-11-20T19:22:47Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 13,
+        "issue_response": {
+          "answered": 13,
+          "total": 14
+        }
+      }
+    },
+    {
+      "full_name": "Twigpine/openclaude",
+      "url": "https://github.com/Twigpine/openclaude",
+      "score": 20.5,
+      "stars": 34482,
+      "language": "TypeScript",
+      "description": "runs anywhere. uses anything",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 28 outside PRs in 90 days"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 3.7,
+          "text": "~4402 stars a month (new, 8 months ago, top 27% in cli)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic cli"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed 1d ago"
+        },
+        {
+          "rule": "issue_response",
+          "points": 1.8,
+          "text": "answered 7 of 12 recent issues"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "a license licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v0.37.0 4d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        }
+      ],
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-tools",
+        "cli",
+        "coding"
+      ],
+      "via_topics": [
+        "cli"
+      ],
+      "created_at": "2026-04-01T03:15:49Z",
+      "pushed_at": "2026-11-21T01:25:53Z",
+      "lang": "und",
+      "health": {
+        "outside_prs_90d": 28,
+        "issue_response": {
+          "answered": 7,
+          "total": 12
+        }
+      }
+    },
+    {
+      "full_name": "oomol-lab/open-connector",
+      "url": "https://github.com/oomol-lab/open-connector",
+      "score": 20.2,
+      "stars": 6279,
+      "language": "TypeScript",
+      "description": "Open-source auth gateway connecting 1700+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (cli, self-hosted)"
+        },
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 76 outside PRs in 90 days"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 2.2,
+          "text": "~1290 stars a month (new, 5 months ago, top 57% in self-hosted)"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "a license licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v1.10.1 2d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        }
+      ],
+      "topics": [
+        "agent-tools",
+        "ai-agents",
+        "api-gateway",
+        "automation",
+        "cli",
+        "cloudflare-workers",
+        "connectors",
+        "integration-platform",
+        "mcp",
+        "model-context-protocol",
+        "oauth",
+        "oomol",
+        "openapi",
+        "openconnector",
+        "saas-integrations",
+        "sdk",
+        "self-hosted",
+        "typescript"
+      ],
+      "via_topics": [
+        "self-hosted"
+      ],
+      "created_at": "2026-06-29T10:49:36Z",
+      "pushed_at": "2026-11-22T03:14:57Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 76,
+        "issue_response": {
+          "answered": 1,
+          "total": 1
+        }
+      }
+    },
+    {
+      "full_name": "codewhale-hq/Codewhale",
+      "url": "https://github.com/codewhale-hq/Codewhale",
+      "score": 20,
+      "stars": 41197,
+      "language": "Rust",
+      "description": "An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task across several agents, and every line of it is yours to read.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 74 outside PRs in 90 days"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 3.5,
+          "text": "~4039 stars a month (new, 10 months ago, top 30% in cli)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic cli"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "good_first_issue",
+          "points": 1.5,
+          "text": "2 good first issues, 10+ help wanted"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "MIT licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v0.10.3 today"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        }
+      ],
+      "topics": [
+        "agent-client-protocol",
+        "agent-orchestration",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent",
+        "deepseek",
+        "developer-tools",
+        "llm",
+        "local-llm",
+        "mcp",
+        "multi-agent",
+        "ollama",
+        "open-source",
+        "openai-compatible",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "via_topics": [
+        "cli"
+      ],
+      "created_at": "2026-01-19T18:21:01Z",
+      "pushed_at": "2026-11-22T13:16:30Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 74,
+        "issue_response": {
+          "answered": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "full_name": "ArcReel/ArcReel",
+      "url": "https://github.com/ArcReel/ArcReel",
+      "score": 20,
+      "stars": 6707,
+      "language": "Python",
+      "description": "AI Agent 驱动的开源可自部署视频工作台：将小说与剧本转为角色、场景、道具资产、分镜、视频和剪映草稿，支持跨镜头一致性、多供应商与费用追踪 | Self-hosted AI video workspace for stories, storyboards and short-form video production",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 82 outside PRs in 90 days"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 2,
+          "text": "~699 stars a month (new, 10 months ago, top 61% in docker)"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v0.37.0 6d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        }
+      ],
+      "topics": [
+        "agentic-workflow",
+        "ai-agent",
+        "ai-animation",
+        "ai-video-generator",
+        "capcut",
+        "claude-agent-sdk",
+        "content-creation",
+        "docker",
+        "ffmpeg",
+        "image-to-video",
+        "multi-provider",
+        "novel-to-video",
+        "reference-to-video",
+        "script-to-video",
+        "self-hosted",
+        "short-drama",
+        "short-video",
+        "storyboard",
+        "text-to-video",
+        "video-generation"
+      ],
+      "via_topics": [
+        "self-hosted",
+        "docker"
+      ],
+      "created_at": "2026-02-07T08:17:10Z",
+      "pushed_at": "2026-11-22T14:17:57Z",
+      "lang": "zh",
+      "health": {
+        "outside_prs_90d": 82,
+        "issue_response": {
+          "answered": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "full_name": "floci-io/floci",
+      "url": "https://github.com/floci-io/floci",
+      "score": 18.9,
+      "stars": 32037,
+      "language": "Java",
+      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 51 outside PRs in 90 days"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 3.9,
+          "text": "~3470 stars a month (new, 9 months ago, top 23% in docker)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic docker"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "MIT licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released 2.5.0 7d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        }
+      ],
+      "topics": [
+        "aws",
+        "aws-emulation",
+        "devops",
+        "docker",
+        "ec2",
+        "ecs",
+        "localstack",
+        "s3",
+        "sqs",
+        "testcontainers"
+      ],
+      "via_topics": [
+        "docker"
+      ],
+      "created_at": "2026-02-18T02:28:29Z",
+      "pushed_at": "2026-11-22T14:10:19Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 51,
+        "issue_response": {
+          "answered": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "score": 18.5,
+      "stars": 113917,
+      "language": "Python",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 31 outside PRs in 90 days"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 4.8,
+          "text": "~12611 stars a month (new, 9 months ago, top 5% in cli)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic cli"
+        },
+        {
+          "rule": "recent_push",
+          "points": 2,
+          "text": "pushed 14d ago"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "MIT licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v1.6.1 21d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 0.7,
+          "text": "docs: README, description"
+        }
+      ],
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili",
+        "claude-code",
+        "cli",
+        "cursor",
+        "free-api",
+        "llm-tools",
+        "mcp",
+        "python",
+        "reddit-scraper",
+        "twitter-scraper",
+        "web-scraper",
+        "xiaohongshu",
+        "youtube-transcript"
+      ],
+      "via_topics": [
+        "cli"
+      ],
+      "created_at": "2026-02-24T02:10:24Z",
+      "pushed_at": "2026-11-08T02:17:48Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 31,
+        "issue_response": {
+          "answered": 0,
+          "total": 5
+        }
+      }
+    },
+    {
+      "full_name": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "score": 18.4,
+      "stars": 19367,
+      "language": "Rust",
+      "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 12 outside PRs in 90 days"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 3.4,
+          "text": "~4007 stars a month (new, 5 months ago, top 33% in cli)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic cli"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v1.0.0-rc.104 3d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        }
+      ],
+      "topics": [
+        "agent-memory",
+        "ai-agents",
+        "bm25",
+        "claude-code",
+        "cli",
+        "code-search",
+        "cursor",
+        "database",
+        "elasticsearch",
+        "full-text-search",
+        "hybrid-search",
+        "jsonl",
+        "local-first",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "rag",
+        "rust",
+        "search-engine",
+        "vector-search"
+      ],
+      "via_topics": [
+        "cli"
+      ],
+      "created_at": "2026-06-30T04:32:45Z",
+      "pushed_at": "2026-11-22T14:31:22Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 12,
+        "issue_response": {
+          "answered": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "full_name": "brightbeanxyz/brightbean-studio",
+      "url": "https://github.com/brightbeanxyz/brightbean-studio",
+      "score": 17.4,
+      "stars": 2665,
+      "language": "Python",
+      "description": "Open-source, self-hostable social media management platform. Schedule, publish, and manage content across 10+ platforms from a single dashboard. Free alternative to Buffer, Sendible, and SocialPilot.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "outside_prs",
+          "points": 5,
+          "text": "merged 42 outside PRs in 90 days"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed 5d ago"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 0.4,
+          "text": "~330 stars a month (new, 8 months ago, top 92% in docker)"
+        }
+      ],
+      "topics": [
+        "agpl",
+        "buffer-alternative",
+        "content-management",
+        "django",
+        "docker",
+        "htmx",
+        "multi-platform",
+        "open-source",
+        "python",
+        "scheduling",
+        "self-hosted",
+        "social-media",
+        "social-media-management",
+        "social-media-scheduler",
+        "tailwindcss"
+      ],
+      "via_topics": [
+        "docker"
+      ],
+      "created_at": "2026-03-25T11:16:28Z",
+      "pushed_at": "2026-11-17T13:23:25Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 42,
+        "issue_response": {
+          "answered": 0,
+          "total": 7
+        }
+      }
+    },
+    {
+      "full_name": "peach-mitao/peach",
+      "url": "https://github.com/peach-mitao/peach",
+      "score": 15.7,
+      "stars": 15248,
+      "language": "Python",
+      "description": "Peach: Local-first video metadata scraper and media manager.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 3.9,
+          "text": "~4866 stars a month (new, 3 months ago, top 23% in self-hosted)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic self-hosted"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "outside_prs",
+          "points": 1,
+          "text": "merged 1 outside PR in 90 days"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v0.61.0 1d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "issue_response",
+          "points": 0.8,
+          "text": "answered 1 of 4 recent issues"
+        }
+      ],
+      "topics": [
+        "local-first",
+        "media-library",
+        "media-manager",
+        "python",
+        "react",
+        "self-hosted",
+        "video-player"
+      ],
+      "via_topics": [
+        "self-hosted"
+      ],
+      "created_at": "2026-08-19T19:48:30Z",
+      "pushed_at": "2026-11-22T05:46:43Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 1,
+        "issue_response": {
+          "answered": 1,
+          "total": 4
+        }
+      }
+    },
+    {
+      "full_name": "HKUDS/nanobot",
+      "url": "https://github.com/HKUDS/nanobot",
+      "score": 15.5,
+      "stars": 50268,
+      "language": "Python",
+      "description": "Your lightweight open-source personal agent.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 4,
+          "text": "~5129 stars a month (new, 10 months ago, top 20% in self-hosted)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic self-hosted"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "good_first_issue",
+          "points": 1.5,
+          "text": "1 good first issue"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "MIT licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v0.4.2 1d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        }
+      ],
+      "topics": [
+        "agent-framework",
+        "ai-agent",
+        "ai-agents",
+        "chatbot",
+        "chatops",
+        "discord-bot",
+        "llm-agents",
+        "llms",
+        "local-llm",
+        "mcp",
+        "model-context-protocol",
+        "multi-agent",
+        "openai-compatible",
+        "openclaw",
+        "personal-ai-assistant",
+        "python",
+        "self-hosted",
+        "telegram-bot-ai-assistant",
+        "webui",
+        "workflow-automation"
+      ],
+      "via_topics": [
+        "self-hosted"
+      ],
+      "created_at": "2026-02-01T07:16:15Z",
+      "pushed_at": "2026-11-22T13:56:50Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 0,
+        "issue_response": {
+          "answered": 1,
+          "total": 1
+        }
+      }
+    },
+    {
+      "full_name": "snapotter-hq/SnapOtter",
+      "url": "https://github.com/snapotter-hq/SnapOtter",
+      "score": 13.9,
+      "stars": 3004,
+      "language": "TypeScript",
+      "description": "Free, open-source file toolkit for PDFs, images, video and audio. Compress, convert, OCR, remove backgrounds and transcribe on your own server with one Docker command. 200+ tools, local AI, REST API. An alternative to iLovePDF, TinyWow CloudConvert and remove.bg.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        },
+        {
+          "rule": "contributing",
+          "points": 1,
+          "text": "has a CONTRIBUTING guide"
+        },
+        {
+          "rule": "release",
+          "points": 1,
+          "text": "released v2.3.0 19d ago"
+        },
+        {
+          "rule": "readme",
+          "points": 1,
+          "text": "docs: README, description, homepage"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 0.9,
+          "text": "~380 stars a month (new, 8 months ago, top 82% in docker)"
+        }
+      ],
+      "topics": [
+        "background-removal",
+        "docker",
+        "ffmpeg",
+        "file-converter",
+        "homelab",
+        "ilovepdf-alternative",
+        "image-converter",
+        "image-processing",
+        "local-ai",
+        "ocr",
+        "offline",
+        "pdf",
+        "pdf-tools",
+        "privacy",
+        "rest-api",
+        "self-hosted",
+        "selfhosted",
+        "stirling-pdf-alternative",
+        "transcription",
+        "video-converter"
+      ],
+      "via_topics": [
+        "docker"
+      ],
+      "created_at": "2026-03-29T15:33:21Z",
+      "pushed_at": "2026-11-22T14:42:13Z",
+      "lang": "en",
+      "health": {
+        "outside_prs_90d": 0,
+        "issue_response": {
+          "answered": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "full_name": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "score": 10.2,
+      "stars": 33520,
+      "language": "C#",
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 3.2,
+          "text": "~3990 stars a month (new, 8 months ago, top 36% in cli)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic cli"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed 2d ago"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        }
+      ],
+      "topics": [
+        "agent",
+        "ai",
+        "claude-code",
+        "cli",
+        "codex",
+        "docx",
+        "excel",
+        "office",
+        "openclaw",
+        "pptx",
+        "presentation",
+        "skills",
+        "word",
+        "xlsx"
+      ],
+      "via_topics": [
+        "cli"
+      ],
+      "created_at": "2026-03-15T07:39:12Z",
+      "pushed_at": "2026-11-20T06:12:44Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "deeplethe/utopia",
+      "url": "https://github.com/deeplethe/utopia",
+      "score": 10.2,
+      "stars": 8692,
+      "language": "Rust",
+      "description": "World's first open-source enterprise world model.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 3.2,
+          "text": "~2460 stars a month (new, 4 months ago, top 36% in self-hosted)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic self-hosted"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        }
+      ],
+      "topics": [
+        "agent-memory",
+        "bitemporal",
+        "graphrag",
+        "knowledge-base",
+        "knowledge-graph",
+        "llm",
+        "ontology",
+        "pgvector",
+        "postgresql",
+        "rag",
+        "rust",
+        "self-hosted",
+        "semantic-search",
+        "temporal-knowledge-graph",
+        "world-model"
+      ],
+      "via_topics": [
+        "self-hosted"
+      ],
+      "created_at": "2026-08-07T19:33:17Z",
+      "pushed_at": "2026-11-22T00:20:52Z",
+      "lang": "und",
+      "health": null
+    },
+    {
+      "full_name": "rocketride-org/rocketride-server",
+      "url": "https://github.com/rocketride-org/rocketride-server",
+      "score": 10.1,
+      "stars": 19995,
+      "language": "Python",
+      "description": "RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test and publish durable agents that scale in production.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "star_velocity",
+          "points": 3.1,
+          "text": "~2120 stars a month (new, 9 months ago, top 39% in self-hosted)"
+        },
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic self-hosted"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "MIT licensed"
+        }
+      ],
+      "topics": [
+        "agent-framework",
+        "agent-harness",
+        "agent-orchestration",
+        "agentic-ai",
+        "ai-agents",
+        "ai-observability",
+        "cpp",
+        "document-processing",
+        "llm",
+        "llmops",
+        "mcp",
+        "mcp-server",
+        "meta-harness",
+        "model-context-protocol",
+        "open-source",
+        "rag",
+        "self-hosted",
+        "visual-programming",
+        "vscode-extension",
+        "workflow-engine"
+      ],
+      "via_topics": [
+        "self-hosted"
+      ],
+      "created_at": "2026-02-11T17:02:53Z",
+      "pushed_at": "2026-11-22T12:10:10Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "connorgallopo/Tracearr",
+      "url": "https://github.com/connorgallopo/Tracearr",
+      "score": 10.1,
+      "stars": 2741,
+      "language": "TypeScript",
+      "description": "Real-time monitoring for Plex, Jellyfin, and Emby servers. Track streams, analyze playback, and detect account sharing from a single dashboard.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 6,
+          "text": "2 of your topics (docker, self-hosted)"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed today"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "AGPL-3.0 licensed"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 0.1,
+          "text": "~229 stars a month (new, 12 months ago, top 99% in docker)"
+        }
+      ],
+      "topics": [
+        "docker",
+        "emby",
+        "emby-api",
+        "emby-server",
+        "jellyfin",
+        "jellystat",
+        "monitoring-server",
+        "monitoring-tool",
+        "nodejs",
+        "plex",
+        "plex-media-server",
+        "plex-server",
+        "react",
+        "react-native",
+        "redis",
+        "self-hosted",
+        "tailwindcss",
+        "tautulli",
+        "timescaledb",
+        "tracearr"
+      ],
+      "via_topics": [
+        "docker"
+      ],
+      "created_at": "2025-11-28T01:47:35Z",
+      "pushed_at": "2026-11-22T12:05:36Z",
+      "lang": "en",
+      "health": null
+    },
+    {
+      "full_name": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "score": 9.9,
+      "stars": 32442,
+      "language": "Rust",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "sources": [
+        "search"
+      ],
+      "reasons": [
+        {
+          "rule": "topic_match",
+          "points": 3,
+          "text": "your topic cli"
+        },
+        {
+          "rule": "recent_push",
+          "points": 3,
+          "text": "pushed 2d ago"
+        },
+        {
+          "rule": "star_velocity",
+          "points": 2.9,
+          "text": "~3687 stars a month (new, 9 months ago, top 43% in cli)"
+        },
+        {
+          "rule": "license",
+          "points": 1,
+          "text": "Apache-2.0 licensed"
+        }
+      ],
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "automation",
+        "cli",
+        "discovery-api",
+        "gemini-cli-extension",
+        "google-admin",
+        "google-api",
+        "google-calendar",
+        "google-chat",
+        "google-docs",
+        "google-drive",
+        "google-sheets",
+        "google-workspace",
+        "oauth2",
+        "rust"
+      ],
+      "via_topics": [
+        "cli"
+      ],
+      "created_at": "2026-03-02T19:46:06Z",
+      "pushed_at": "2026-11-20T14:06:28Z",
+      "lang": "en",
+      "health": null
+    }
+  ]
+}
